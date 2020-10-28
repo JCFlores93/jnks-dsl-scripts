@@ -1,6 +1,6 @@
 String basePath = 'JobsAsCode/example2'
-String repo = 'git@github.globant.com:jheison-rodriguez/jenkins-ci-cd-go-hello-world.git'
-String credentialSSH = 'gitlab_jenkins_jheison'
+String repo = 'git@github.com:JCFlores93/jenkins-ci-cd-go-hello-world.git'
+String credentialSSH = 'JCFlores93'
 
 folder(basePath) {
     description 'This example shows how to create a set of jobs for each github branch, each in its own folder.'
